@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<quiz>
+	<question type="category">
+		<category>
+			<text>D$course$/XXXX</text>
+		</category>
+	</question>
+	<question type="multichoice">
+		 <answer fraction="100">
+		     <text>The correct answer</text>
+		    <feedback><text>Correct!</text></feedback>
+		 </answer>
+		 <answer fraction="0">
+		     <text>A distractor</text>
+		    <feedback><text>Ooops!</text></feedback>
+		 </answer>
+		 <answer fraction="0">
+		     <text>Another distractor</text>
+		    <feedback><text>Ooops!</text></feedback>
+		 </answer>
+		 <shuffleanswers>1</shuffleanswers>
+		 <single>true</single>
+		 <answernumbering>abc</answernumbering>
+	</question>
+	<question type="truefalse">
+		 <answer fraction="100">
+		    <text>true</text>
+		    <feedback><text>Correct!</text></feedback>
+		 </answer>
+		 <answer fraction="0">
+		    <text>false</text>
+		    <feedback><text>Oooops!</text></feedback>
+		 </answer>
+	</question>
+	<question type="shortanswer">
+		 <answer fraction="100">
+		     <text>The correct answer</text>
+		     <feedback><text>Correct!</text></feedback>
+		 </answer>
+		 
+		 <question type="shortanswer">
+		 <answer fraction="100">
+		     <text>The correct answer</text>
+		     <feedback><text>Correct!</text></feedback>
+		 </answer>
+		 <answer fraction="100">
+		     <text>An alternative answer</text>
+		     <feedback><text>Correct!</text></feedback>
+		 </answer>
+		 </question>
+	</question>
+	<question type="numerical">
+		 <answer fraction="100">
+		     <text>23</text>
+		     <feedback><text>Feedback</text></feedback>
+		 </answer>
+	</question>
+	<question type="matching">
+		 <subquestion>
+		     <text>This is the 1st item in the 1st pair.</text>
+		     <answer>
+			 <text>This is the 2nd item in the 1st pair.</text>
+		     </answer>
+		 </subquestion>
+		 <subquestion>
+		     <text>This is the 1st item in the 2nd pair.</text>
+		     <answer>
+			 <text>This is the 2nd item in the 2nd pair.</text>
+		     </answer>
+		 </subquestion>
+		 <shuffleanswers>true</shuffleanswers>
+	</question>
+	<question type="essay">
+	    <answer fraction="0">
+		<text></text>
+	    </answer>
+	  </question>
+</quiz>
